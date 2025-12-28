@@ -3,7 +3,9 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,12 +13,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ExpenseTracker">
-
-     
+        <activity
+            android:name=".ProfileFragment"
+            android:exported="false" />
         <activity
             android:name=".SettingFragment"
-            android:exported="false" />
-        <!-- Login Activity (LAUNCHER) -->
+            android:exported="false" /> <!-- Login Activity (LAUNCHER) -->
         <activity
             android:name=".LoginActivity"
             android:exported="true">
@@ -26,7 +28,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity> <!-- Signup Activity -->
-
         <activity
             android:name=".SignupActivity"
             android:exported="false"
@@ -35,9 +36,15 @@
             android:name=".MainActivity"
             android:exported="false" /> <!-- Detail Expense Activity -->
         <activity
-            android:name=".DetailExpenseActivity"
+            android:name=".DetailRecipeActivity"
             android:exported="false"
             android:parentActivityName=".MainActivity" />
+        <!-- Edit Recipe Activity - ADD THIS -->
+        <activity
+            android:name=".EditRecipeActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:label="Edit Recipe" />
     </application>
 
 </manifest>

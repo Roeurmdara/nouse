@@ -1,19 +1,19 @@
 <resources>
 
-    <!-- Primary Colors -->
-    <color name="purple_500">#6200EE</color>
-    <color name="purple_700">#3700B3</color>
+    <!-- Primary Colors (Orange now) -->
+    <color name="purple_500">#FF9800</color>
+    <color name="purple_700">#F57C00</color>
 
-    <!-- Teal secondary -->
+    <!-- Teal secondary (kept) -->
     <color name="teal_200">#03DAC5</color>
     <color name="teal_700">#018786</color>
 
-    <!-- Buttons -->
-    <color name="button_primary">#1A73E8</color>
+    <!-- Buttons (Orange) -->
+    <color name="button_primary">#FB8C00</color>
 
     <!-- Light Mode Colors -->
     <color name="light_background">#FFFFFF</color>
-    <color name="light_surface">#F5F5F5</color>
+    <color name="light_surface">#FFF3E0</color>
     <color name="light_text_primary">#000000</color>
     <color name="light_text_secondary">#555555</color>
     <color name="text_hint">#999999</color>
@@ -27,42 +27,18 @@
     <color name="dark_text_secondary">#B3B3B3</color>
 
     <!-- Extra -->
-    <color name="primary_dark_blue">#0D47A1</color>
-    <color name="primary_blue">#1976D2</color>
+    <color name="primary_dark_blue">#E65100</color> <!-- dark orange -->
+    <color name="primary_blue">#FF9800</color>      <!-- main orange -->
 
     <!-- MISSING COLORS (Fixed) -->
     <color name="gray_medium">#808080</color>
     <color name="background_light">#F5F5F5</color>
-    <color name="accent_blue">#2196F3</color>
-    <color name="light_blue_bg">#E3F2FD</color>
-    
+    <color name="accent_blue">#FFA726</color>       <!-- orange accent -->
+    <color name="light_blue_bg">#FFE0B2</color>     <!-- soft orange background -->
+
     <!-- Text Colors -->
     <color name="text_primary">#212121</color>
     <color name="text_secondary">#757575</color>
     <color name="border_light">#E0E0E0</color>
 
-
-
-    <!-- Standard Colors -->
-    <!-- <color name="black">#FF000000</color> -->
-
-    <!-- <color name="white">#FFFFFFFF</color> -->
-
-    <!-- <color name="text_hint">#A0A0A0</color> -->
-
-    <!-- <color name="button_primary">#1976D2</color> -->
-
-
-    <!-- Theme Specific (Mapping for Dark/Light Logic) -->
-    <!-- <color name="light_background">#F5F5F5</color> -->
-
-    <!-- <color name="light_surface">#FFFFFF</color> -->
-
-    <!-- <color name="light_text_primary">#212121</color> -->
-
-    <!-- <color name="light_text_secondary">#757575</color> -->
-
-    <!-- <color name="dark_text_primary">#E0E0E0</color> -->
-
-    <!-- <color name="dark_text_secondary">#B0B0B0</color> -->
 </resources>

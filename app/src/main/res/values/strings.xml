@@ -1,49 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App Name -->
-    <string name="app_name">Expense Tracker</string>
-    <!-- Bottom Navigation -->
-    <string name="nav_home">Home</string>
-    <string name="nav_add_expense">Add Expense</string>
-    <string name="nav_expense_list">Expense List</string>
+    <string name="app_name">RecipeApp</string>
+    <!--login-->
+    <string name="Email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="sign_in_continue">Sign in to continue</string>
 
-    <!-- Home Fragment -->
-    <string name="home_title">Expense Summary</string>
-    <string name="home_total_expenses">Total Expenses: $1,250.00</string>
-    <string name="home_latest_expense">Latest: Grocery Shopping - $85.50</string>
-    <string name="home_this_month">This Month</string>
-    <string name="home_last_updated">Last Updated: Today</string>
+    <!--singup-->
+    <string name="btn_singup">Singup</string>
+    <string name="sign_up_continue">Sign up to continue</string>
+    <string name="hint_comferm_password"> Confirm Password</string>
 
-    <!-- Add Expense Fragment -->
-    <string name="add_expense_title">Add New Expense</string>
-    <string name="label_amount">Amount</string>
-    <string name="hint_amount">Enter amount</string>
-    <string name="label_currency">Currency</string>
-    <string name="label_category">Category</string>
-    <string name="label_date">Date</string>
-    <string name="hint_date">YYYY-MM-DD</string>
-    <string name="label_remark">Remark</string>
-    <string name="hint_remark">Enter remark</string>
-    <string name="btn_add_expense">Add Expense</string>
-    <string name="btn_save">Save</string>
+        <!-- Recipe Form Strings -->
+        <string name="upload_image">Upload Image</string>
+        <string name="recipe_name_hint">Recipe Name</string>
+        <string name="ingredients_header">Ingredients</string>
+        <string name="add_ingredient">+ Add Ingredient</string>
+        <string name="cooking_steps_header">Cooking Steps</string>
+        <string name="add_cooking_step">+ Add Cooking Step</string>
+        <string name="additional_notes_hint">Additional Notes (optional)</string>
+        <string name="submit_recipe">Submit Recipe</string>
 
-    <!-- Expense List Fragment -->
-    <string name="expense_list_title">All Expenses</string>
-    <string name="no_expenses">No expenses found</string>
 
-    <!-- Expense Item -->
-    <string name="category_label">Category: %1$s</string>
-    <string name="date_label">Date: %1$s</string>
-    <string name="remark_label">Remark: %1$s</string>
-    <string name="amount_format">$%1$.2f %2$s</string>
 
-    <!-- Detail Expense Activity -->
-    <string name="detail_title">Expense Details</string>
-    <string name="detail_amount">Amount: $%1$.2f</string>
-    <string name="detail_currency">Currency: %1$s</string>
-    <string name="detail_date">Date: %1$s</string>
-    <string name="detail_category">Category: %1$s</string>
-    <string name="detail_remark">Remark: %1$s</string>
+
+    <!-- Settings Strings -->
+    <string name="settings_title">Settings</string>
+    <string name="theme_title">App Theme</string>
+    <string name="lang_title">Language</string>
+    <string name="theme_light">Light Mode</string>
+    <string name="theme_dark">Dark Mode</string>
+    <string name="lang_en">English</string>
+    <string name="lang_km">Khmer</string>
+
+
 
     <!-- Currency Array -->
     <string-array name="currencies">
@@ -89,31 +81,6 @@
         <item>dark</item>
         <item>system</item>
     </string-array>
-
-    <!-- Settings Strings -->
-    <string name="settings_title">Settings</string>
-    <string name="theme_title">App Theme</string>
-    <string name="lang_title">Language</string>
-
-    <string name="theme_light">Light Mode</string>
-    <string name="theme_dark">Dark Mode</string>
-
-    <string name="lang_en">English</string>
-    <string name="lang_km">Khmer</string>
-    <!-- add expense -->
-
-
-        <string name="amount_title">Amount</string>
-        <string name="enter_amount_title">Enter amount</string>
-        <string name="category_title">Category</string>
-        <string name="date_title">Date</string>
-        <string name="remark_title">Remark</string>
-        <string name="enter_remark_title">Enter remark</string>
-        <string name="add_expense_btn">Add Expense</string>
-    <string name="currency_title">Currency</string>
-
-    <string name="total_title">Total Expenses</string>
-
 
 
 </resources>

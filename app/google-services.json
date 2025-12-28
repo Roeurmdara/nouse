@@ -1,21 +1,40 @@
 {
   "project_info": {
-    "project_number": "1007334240038",
-    "project_id": "dara-6375c",
-    "storage_bucket": "expense-tracker-lab5.firebasestorage.app"
+    "project_number": "485308038570",
+    "project_id": "recipe-2f48e",
+    "storage_bucket": "recipe-2f48e.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1007334240038:android:6982747b4c3cea4fa39be7",
+        "mobilesdk_app_id": "1:485308038570:android:037e8655e9d90fb443ffd3",
         "android_client_info": {
-          "package_name": "com.example.expensetracker"
+          "package_name": "com.example.Recipe"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyApzNWGLkuZ5YeyIjGgx00SINB8cf6VYno"
+          "current_key": "AIzaSyDFYQ7QJvWDOeZabIgp4FEePXBypPUFyXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485308038570:android:a1d4a578be8ef07b43ffd3",
+        "android_client_info": {
+          "package_name": "com.example.Resipe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFYQ7QJvWDOeZabIgp4FEePXBypPUFyXw"
         }
       ],
       "services": {

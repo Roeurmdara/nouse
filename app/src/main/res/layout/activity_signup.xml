@@ -1,8 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    android:background="?android:windowBackground">
+    android:background="#FFFFFF">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,19 +15,30 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Expense Tracker"
+            android:text="Create Account"
             android:textSize="32sp"
             android:textStyle="bold"
-            android:textColor="?android:textColorPrimary"
+            android:textColor="#000"
             android:layout_marginBottom="8dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sign in to continue"
+            android:text="Sign up to start sharing recipes"
             android:textSize="16sp"
-            android:textColor="?android:textColorSecondary"
-            android:layout_marginBottom="40dp"/>
+            android:textColor="#666"
+            android:layout_marginBottom="32dp"/>
+
+        <!-- NAME FIELD - NEW -->
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            android:padding="16dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginBottom="16dp"/>
 
         <EditText
             android:id="@+id/etEmail"
@@ -36,9 +48,18 @@
             android:inputType="textEmailAddress"
             android:padding="16dp"
             android:background="@android:drawable/edit_text"
-            android:layout_marginBottom="16dp"
-            android:textColor="?android:textColorPrimary"
-            android:textColorHint="@color/text_hint"/>
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password (min 6 characters)"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginBottom="16dp"/>
+
         <EditText
             android:id="@+id/etConfirmPassword"
             android:layout_width="match_parent"
@@ -46,70 +67,34 @@
             android:hint="Confirm Password"
             android:inputType="textPassword"
             android:padding="16dp"
-            android:layout_marginBottom="24dp"
             android:background="@android:drawable/edit_text"
-            android:backgroundTint="?attr/colorPrimary"
-            android:textColor="?android:attr/textColorPrimary"
-            android:textColorHint="?android:attr/textColorSecondary"/>
+            android:layout_marginBottom="24dp"/>
 
-
-        <EditText
-            android:id="@+id/etPassword"
-            android:layout_width="match_parent"
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Password"
-            android:inputType="textPassword"
-            android:padding="16dp"
-            android:background="@android:drawable/edit_text"
-            android:layout_marginBottom="24dp"
-            android:textColor="?android:textColorPrimary"
-            android:textColorHint="@color/text_hint"/>
+            android:visibility="gone"
+            android:layout_marginBottom="16dp"/>
+
         <Button
             android:id="@+id/btnSignup"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
+            android:layout_height="wrap_content"
             android:text="Sign Up"
-            android:textSize="16sp"
-            android:backgroundTint="?attr/colorPrimary"
-            android:textColor="?attr/colorOnPrimary"/>
+            android:textSize="18sp"
+            android:padding="16dp"/>
 
         <TextView
             android:id="@+id/tvLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Already have an account? Login"
-            android:textColor="?attr/colorPrimary"
-            android:textSize="14sp"
-            android:layout_marginTop="16dp"
-            android:clickable="true"
-            android:focusable="true"/>
-
-        <Button
-            android:id="@+id/btnLogin"
-            android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:text="Login"
+            android:textColor="#FF6B6B"
             android:textSize="16sp"
-            android:backgroundTint="@color/button_primary"
-            android:textColor="@color/white"/>
-
-        <TextView
-            android:id="@+id/tvSignup"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Don't have an account? Sign up"
-            android:textColor="@color/primary_blue"
-            android:textSize="14sp"
             android:layout_marginTop="16dp"
             android:clickable="true"
             android:focusable="true"/>
-
-        <ProgressBar
-            android:id="@+id/progressBar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:visibility="gone"/>
 
     </LinearLayout>
 </ScrollView>
